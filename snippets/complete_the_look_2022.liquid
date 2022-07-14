@@ -1,0 +1,151 @@
+<div id="ctl">
+<ul class="complete_the_look">
+  
+{% if product.tags contains 'MENS' %}
+{% assign collection = collections.all %}
+{% paginate collections.all.products by 1000 %}
+{% assign productName = product.title %}
+{% assign productKuler = product.variants.first.option1 %}
+{% for product in collection.products %}
+{% if product.title != productName and product.variants.first.option1 == productKuler and product.tags contains 'TOPS' and product.tags contains 'MENS' %}
+	<li>
+  			<a href="{{ product.handle }}" target="_blank">
+    			<img src="{{ product | img_url: '191x' }}" alt="{{ product.title }} - {{ product.type }} - TLF Apparel | Take Life Further" height="auto">
+  			</a>
+      <div class="ctl">
+      <a href="{{ product.handle }}" target="_blank">{{ product.title }}</a><br>
+      <span class="ctl-color">{{ product.variants.first.option1 }}</span><br>
+      {{ product.price | money }}<br>
+      </div>
+  	</li>
+{% endif %}
+
+{% if product.title != productName and product.variants.first.option1 == productKuler and product.tags contains 'BOTTOMS' and product.tags contains 'MENS' %}
+	<li>
+  			<a href="{{ product.handle }}" target="_blank">
+    			<img src="{{ product | img_url: '191x' }}" alt="{{ product.title }} - {{ product.type }} - TLF Apparel | Take Life Further" height="auto">
+  			</a>
+      <div class="ctl">
+      <a href="{{ product.handle }}" target="_blank">{{ product.title }}</a><br>
+      <span class="ctl-color">{{ product.variants.first.option1 }}</span><br>
+      {{ product.price | money }}<br>
+      </div>
+  	</li>
+{% endif %}
+{% endfor %}
+{% endpaginate %}
+{% endif %}
+  
+{% if product.tags contains 'WOMENS' %}
+{% assign collection = collections.all %}
+{% paginate collections.all.products by 1000 %}
+{% assign productName = product.title %}
+{% assign productKuler = product.variants.first.option1 %}
+{% for product in collection.products %}
+{% if product.title != productName and product.variants.first.option1 == productKuler and product.tags contains 'TOPS' and product.tags contains 'WOMENS' %}
+	<li>
+  			<a href="{{ product.handle }}" target="_blank">
+    			<img src="{{ product | img_url: '191x' }}" alt="{{ product.title }} - {{ product.type }} - TLF Apparel | Take Life Further" height="auto">
+  			</a>
+      <div class="ctl">
+      <a href="{{ product.handle }}" target="_blank">{{ product.title }}</a><br>
+      <span class="ctl-color">{{ product.variants.first.option1 }}</span><br>
+      {{ product.price | money }}<br>
+      </div>
+  	</li>
+  {% endif %}
+
+{% if product.title != productName and product.variants.first.option1 == productKuler and product.tags contains 'BOTTOMS' and product.tags contains 'WOMENS' %}
+	<li>
+  			<a href="{{ product.handle }}" target="_blank">
+    			<img src="{{ product | img_url: '191x' }}" alt="{{ product.title }} - {{ product.type }} - TLF Apparel | Take Life Further" height="auto">
+  			</a>
+      <div class="ctl">
+      <a href="{{ product.handle }}" target="_blank" class="ctl-title">{{ product.title }}</a><br>
+      <span class="ctl-color">{{ product.variants.first.option1 }}</span><br>
+      {{ product.price | money }}<br>
+  </div>
+  	</li>
+{% endif %}
+{% endfor %}
+{% endpaginate %}
+{% endif %}
+  
+</ul>
+</div>
+
+<style>
+  h2.h4.accordion__title.complete_the_look {
+    padding: 1.7rem 0 0;
+}
+ ul.complete_the_look {
+    padding-left: 0 !important;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding-bottom: 2em;
+}
+ul.complete_the_look li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.85em;
+    position: relative;
+    min-width: 400px;
+}
+ul.complete_the_look li span {
+    margin-top: 1.25rem;
+    display: inline-block;
+    line-height: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.ctl {
+    padding-left: 20px;
+    width: 50%;
+}
+.ctl a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1em;
+}
+#ctl span.money {
+    color: #868686;
+}
+#ctl btn {
+    background-color: #2e2e2e;
+    color: white!important;
+    padding: 18px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 60px;
+    display: block;
+    text-align: center;
+    line-height: 1em;
+    position: absolute;
+    font-size: 1em;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ctl {
+    overflow: scroll;
+    overflow-y: hidden;
+    margin-top: 0.75em;
+}
+.product__accordion .accordion__content a.ctl-title {
+    font-family: 'Poppins', sans-serif;
+}
+#ctl::-webkit-scrollbar-thumb {
+    background-color: #868686;
+}
+
+#ctl::-webkit-scrollbar {
+    height: 4px;
+}
+#ctl::-webkit-scrollbar-track {
+  background-color: #dbdbdb;
+}
+</style>

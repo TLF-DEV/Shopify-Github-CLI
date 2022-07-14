@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "1647240597f99245c8": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "contour-womens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 0,
+        "hero_background_container_height": "900px",
+        "hero_background_container_height_invh": "85vh",
+        "hero_background_container_height_mobile": "500px",
+        "hero_background_container_height_invh_mobile": "85vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/CONTOUR-DESKTOP.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/CONTOUR-MOBILE.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Shop",
+        "button_color": "#ffffff",
+        "button_alt": "Shop",
+        "button_link": "shopify:\/\/collections\/contour-collection"
+      }
+    },
+    "165643069448cb7cc7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Releases",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "womens-best-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 4
+      }
+    },
+    "1647240521bcdba2f6": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "tempo-womens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 62,
+        "hero_background_container_height": "900px",
+        "hero_background_container_height_invh": "92vh",
+        "hero_background_container_height_mobile": "500px",
+        "hero_background_container_height_invh_mobile": "85vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/TEMPO-DESKTOP_cd152409-ea70-47c2-9a6b-d1bbf51e172e.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/TEMPO-MOBILE_44b5463f-ec3a-498d-be4d-21fdf1049a05.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Shop",
+        "button_color": "",
+        "button_alt": "Shop",
+        "button_link": "shopify:\/\/collections\/womens-tempo-glo"
+      }
+    },
+    "16564310254490e8b1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop  Tempo Collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "womens-tempo",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1647240593df791ec6": {
+      "type": "multicolumn",
+      "blocks": {
+        "d6c7520f-49cf-4b9a-9bc6-bf115ed98b35": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRAS.jpg",
+            "title": "Sports bras",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/womens-sports-bras"
+          }
+        },
+        "3ec3b209-bfd1-4b68-aa44-93f6b6599a6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHORTS.jpg",
+            "title": "Shorts",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/womens-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "d6c7520f-49cf-4b9a-9bc6-bf115ed98b35",
+        "3ec3b209-bfd1-4b68-aa44-93f6b6599a6c"
+      ],
+      "settings": {
+        "title": "Shop Summer Styles",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651761033d6cc97fa": {
+      "type": "rich-text",
+      "blocks": {
+        "16517610331ebe6f9c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop the Look",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16517610331ebe6f9c-0"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "1654784466a2078541": {
+      "type": "flickity-landing-womens",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 146
+      }
+    },
+    "16475394684543ff1e": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "app-womens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 0,
+        "hero_background_container_height": "500px",
+        "hero_background_container_height_invh": "35vh",
+        "hero_background_container_height_mobile": "500px",
+        "hero_background_container_height_invh_mobile": "85vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/APP_BANNER_IMAGE_IN_THE_FOLDER.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/APP-BANNER.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Download",
+        "button_color": "",
+        "button_alt": "Download",
+        "button_link": "https:\/\/apps.apple.com\/us\/app\/tlf-apparel\/id1528595354"
+      }
+    },
+    "1656431196a5a355ff": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Picked for you",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "womens-tempo",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "164737360739566ef7": {
+      "type": "original-multicolumn",
+      "blocks": {
+        "1647373607953bcde4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PAYMENT-OPTIONS.gif",
+            "title": "BUY NOW PAY LATER",
+            "text": "<p>We have chosen multiple partners so you can shop and pay later. It's simple and easy.<br\/><br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        },
+        "1647373607953bcde4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GC.jpg",
+            "title": "E-GIFT CARD",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        },
+        "1647373607953bcde4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rewards.jpg",
+            "title": "LOREM IPSUM DOLOR",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        }
+      },
+      "block_order": [
+        "1647373607953bcde4-0",
+        "1647373607953bcde4-1",
+        "1647373607953bcde4-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "164724077331727ab5": {
+      "type": "smsbump_footer_form_embeded_footer_95032",
+      "settings": {
+      }
+    },
+    "1647240785d7799992": {
+      "type": "rich-text",
+      "blocks": {
+        "1647240785fe003f78-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MORE THAN YOUR BEST WORKOUT CLOTHING<\/p><p>The Gymshark community is devoted to unlocking potential through conditioning and the things we do today to prepare for tomorrow. When it comes to performing at your max, there should be no obstacles – least of all your workout clothes. So everything about the gym clothes and accessories we design for you has your progress and the best results in mind. We want you to have the most comfortable gym hoodies, the most supportive seamless leggings and the most innovatively designed workout shirts that are made to move when it matters most.<\/p><p>Game-changing workout clothing. It’s not just in the designs, it’s in the people who wear them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647240785fe003f78-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1647240597f99245c8",
+    "165643069448cb7cc7",
+    "1647240521bcdba2f6",
+    "16564310254490e8b1",
+    "1647240593df791ec6",
+    "1651761033d6cc97fa",
+    "1654784466a2078541",
+    "16475394684543ff1e",
+    "1656431196a5a355ff",
+    "164737360739566ef7",
+    "164724077331727ab5",
+    "1647240785d7799992",
+    "main"
+  ]
+}

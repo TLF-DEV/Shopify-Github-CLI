@@ -1,0 +1,30 @@
+<!-- Yotpo Star Rating on Product Pages > Snippets > product-template.liquid -->
+<div class="yotpo bottomLine"
+data-product-id="{{ product.id }}">
+{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
+{%- assign time_now = 'now' | date: '%s' %}
+{%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}
+{%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}
+{%- assign yotpo_bottomline_last_updated = product.metafields.yotpo.bottomline_update_time | date: '%s' %}
+{%- assign diff_seconds_from_last_bottomline_update = time_now | minus: yotpo_bottomline_last_updated %}
+{%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_bottomline_last_updated and diff_seconds_from_last_bottomline_update < 86400 -%}
+{%- assign yotpo_bottomline_obsolete = false %}
+{%- else %}
+{%- assign yotpo_bottomline_obsolete = true %}
+{%- endif %}
+{%- if yotpo_offload_content == 'yes' and yotpo_bottomline_obsolete != true -%}
+{{ product.metafields.yotpo.bottomline }}
+{%- endif %}
+</div>
+<style>
+.yotpo.bottomLine.yotpo-small {
+    margin: 0;
+}
+.yotpo .text-m {
+  padding-left: 5px;
+}
+.yotpo div, .yotpo span, .yotpo p, .yotpo a, .yotpo img, .yotpo i, .yotpo strong, .yotpo sup, .yotpo ul, .yotpo li, .yotpo form, .yotpo label {
+  padding-top: 3px;
+}
+</style>    
+<!-- End of Yotpo Star Rating -->

@@ -1,0 +1,52 @@
+<div id="fit-guide">
+  <div class="fit-bar{% if product.tags contains "TIGHT FIT" %} small{% endif %}{% if product.tags contains "LOOSE FIT" %} large{% endif %}"></div>
+  <div class="fit-line"></div>
+  <div class="tight">Tight</div>
+  <div class="loose">Loose</div>
+</div>
+
+<style>
+#fit-guide {
+  font-family: 'Poppins';
+  font-size: 0.875em;
+  margin-top: 13px;
+}
+
+#fit-guide .fit-line {
+  display: block;
+  height: 10px;
+  background-color: #f1f0f3;
+}
+
+#fit-guide .fit-bar {
+  height: 10px;
+  width: 80px;
+  z-index: 1;
+  background-color: #2e2e2e;
+  position: relative;
+  top: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+#fit-guide .loose {
+  text-align: right;
+  width: 100%;
+  padding-top: 8px;
+}
+
+#fit-guide .tight {
+  width: 100%;
+  position: absolute;
+  padding-top: 8px;
+  max-width: max-content;
+}
+
+#fit-guide .fit-bar.small {
+  margin: 0;
+}
+
+#fit-guide .fit-bar.large {
+  margin-right: 0;
+}
+</style>

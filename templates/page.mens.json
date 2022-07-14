@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "1647240521bcdba2f6": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "vital-mens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 0,
+        "hero_background_container_height": "900px",
+        "hero_background_container_height_invh": "92vh",
+        "hero_background_container_height_mobile": "500px",
+        "hero_background_container_height_invh_mobile": "75vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/VITAL-DESKTOP_659f33a8-c9b2-4644-99d9-8e33a5b22976.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/VITAL-MOBILE_d579ae78-caa7-42de-8bf1-3c1720e109fa.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Shop",
+        "button_color": "",
+        "button_alt": "Shop",
+        "button_link": "shopify:\/\/collections\/mens-vital"
+      }
+    },
+    "1656431528d9817560": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New releases",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 4
+      }
+    },
+    "1647240597f99245c8": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "league-mens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 62,
+        "hero_background_container_height": "900px",
+        "hero_background_container_height_invh": "92vh",
+        "hero_background_container_height_mobile": "600px",
+        "hero_background_container_height_invh_mobile": "75vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/league_dd33f2af-d0e8-4871-a895-f1bc89945a52.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/SECOND_BANNER.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Shop",
+        "button_color": "",
+        "button_alt": "Shop",
+        "button_link": "shopify:\/\/collections\/mens-league"
+      }
+    },
+    "16564318431dc8a810": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop League Collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-league",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1647240593df791ec6": {
+      "type": "multicolumn",
+      "blocks": {
+        "d6c7520f-49cf-4b9a-9bc6-bf115ed98b35": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TANKS.jpg",
+            "title": "Tanks",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/mens-tank-tops-sleeveless"
+          }
+        },
+        "3ec3b209-bfd1-4b68-aa44-93f6b6599a6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHORTS_82f8847e-e341-4aae-883d-d7211ed47c82.jpg",
+            "title": "Shorts",
+            "text": "",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections\/mens-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "d6c7520f-49cf-4b9a-9bc6-bf115ed98b35",
+        "3ec3b209-bfd1-4b68-aa44-93f6b6599a6c"
+      ],
+      "settings": {
+        "title": "Shop Summer Styles",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651697497b55470e0": {
+      "type": "rich-text",
+      "blocks": {
+        "165169749730b2c83b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop the Look",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "165169749730b2c83b-0"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "16473717387c6b1126": {
+      "type": "flickity-landing-mens",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 146
+      }
+    },
+    "16475362050121363a": {
+      "type": "banner-with-mobile",
+      "settings": {
+        "herobannerclass": "app-mens",
+        "hero_banner_top_margin_desktop": 0,
+        "hero_banner_top_margin_mobile": 0,
+        "hero_banner_top_padding_desktop": 0,
+        "hero_banner_top_padding_mobile": 0,
+        "hero_background_container_height": "500px",
+        "hero_background_container_height_invh": "35vh",
+        "hero_background_container_height_mobile": "500px",
+        "hero_background_container_height_invh_mobile": "55vh",
+        "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/APP_BANNER_IMAGE_IN_THE_FOLDER.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/app-banner2.jpg",
+        "check_banner_background": false,
+        "hero_banner_background": "rgba(0,0,0,0)",
+        "hero_background_height": "396px",
+        "hero_banner_subtitle_top_margin_desktop": 20,
+        "hero_banner_subtitle_top_margin_mobile": 20,
+        "hero_banner_subtitle_font_size_desktop": 20,
+        "hero_banner_subtitle_font_size_mobile": 18,
+        "hero_background_subtitle_font_weight": "700",
+        "hero_banner_subtitle": "",
+        "hero_banner_subtitle_color": "#ffffff",
+        "hero_banner_title_top_margin_desktop": 36,
+        "hero_banner_title_top_margin_mobile": 36,
+        "hero_banner_title_font_size_desktop": 72,
+        "hero_banner_title_font_size_mobile": 55,
+        "hero_banner_title_subtitle_width_mobile": 100,
+        "hero_banner_title": "",
+        "check_image_url": false,
+        "image_url": "",
+        "mb_image_url": "",
+        "hero_background_title_font_weight": "200",
+        "hero_banner_title_background_check": false,
+        "hero_banner_title_color": "#ffffff",
+        "hero_banner_description_top_margin_desktop": 56,
+        "hero_banner_description_top_margin_mobile": 60,
+        "hero_banner_description_font_size_desktop": 14,
+        "hero_banner_description_font_size_mobile": 14,
+        "hero_banner_description": "",
+        "hero_banner_description_color": "#ffffff",
+        "hero_banner_scroll": false,
+        "hero_banner_bottom_text": "",
+        "hero_banner_bottom_text_color": "#ffffff",
+        "hero_banner_scroll_top_margin_desktop": 93,
+        "hero_banner_scroll_top_margin_mobile": 93,
+        "hero_banner_scroll_font_size_desktop": 16,
+        "hero_banner_scroll_font_size_mobile": 16,
+        "button_label": "Download",
+        "button_color": "#ffffff",
+        "button_alt": "Download",
+        "button_link": "https:\/\/apps.apple.com\/us\/app\/tlf-apparel\/id1528595354"
+      }
+    },
+    "1656432016399900bc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Picked for you",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mens-vital",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "164737360739566ef7": {
+      "type": "original-multicolumn",
+      "blocks": {
+        "1647373607953bcde4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PAYMENT-OPTIONS.gif",
+            "title": "Buy Now Pay Later",
+            "text": "<p>We have chosen multiple partners so you can shop and pay later. It's simple and easy.<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        },
+        "1647373607953bcde4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GC.jpg",
+            "title": "E-GIFT CARD",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        },
+        "1647373607953bcde4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rewards.jpg",
+            "title": "Lorem ipsum dolor",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/landing-page"
+          }
+        }
+      },
+      "block_order": [
+        "1647373607953bcde4-0",
+        "1647373607953bcde4-1",
+        "1647373607953bcde4-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "164724077331727ab5": {
+      "type": "smsbump_footer_form_embeded_footer_95032",
+      "settings": {
+      }
+    },
+    "1647240785d7799992": {
+      "type": "rich-text",
+      "blocks": {
+        "1647240785fe003f78-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MORE THAN YOUR BEST WORKOUT CLOTHING<\/p><p>The Gymshark community is devoted to unlocking potential through conditioning and the things we do today to prepare for tomorrow. When it comes to performing at your max, there should be no obstacles – least of all your workout clothes. So everything about the gym clothes and accessories we design for you has your progress and the best results in mind. We want you to have the most comfortable gym hoodies, the most supportive seamless leggings and the most innovatively designed workout shirts that are made to move when it matters most.<\/p><p>Game-changing workout clothing. It’s not just in the designs, it’s in the people who wear them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647240785fe003f78-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "1647240521bcdba2f6",
+    "1656431528d9817560",
+    "1647240597f99245c8",
+    "16564318431dc8a810",
+    "1647240593df791ec6",
+    "1651697497b55470e0",
+    "16473717387c6b1126",
+    "16475362050121363a",
+    "1656432016399900bc",
+    "164737360739566ef7",
+    "164724077331727ab5",
+    "1647240785d7799992",
+    "main"
+  ]
+}

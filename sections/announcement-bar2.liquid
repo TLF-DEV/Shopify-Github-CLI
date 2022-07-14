@@ -1,0 +1,123 @@
+{%- if  section.blocks.size > 0 and section.settings.show_announcement_bar -%}
+<div class="dawn-announcement-bar swiper-container no-fouc">
+  <div class="dawn-messages swiper-wrapper">
+    {%- for block in section.blocks -%}
+    <div class="dawn-message swiper-slide">{{block.settings.message}}</div>
+    {%- endfor -%}
+  </div>
+  <div class="dawn-swiper-button swiper-button-prev"></div>
+  <div class="dawn-swiper-button swiper-button-next"></div>
+  {% if customer %}
+  <span class="right-align-login">Hello, {{ customer.first_name }} {% render 'icon-logged-in' %}</span>
+{% else %}
+  <span class="right-align-login"><a href="/pages/rewards">Rewards</a> | <a href="/account/login">Log in</a> | <a href="/account/register">Sign up</a></span>
+  {% endif %}
+</div>
+<script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css" />
+<style>
+  .no-fouc {
+    display: none;
+  }
+</style>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    {%- if section.settings.autoplay %}
+    autoplay: {delay: {{section.settings.delay}} },
+    {%- endif -%}
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+<script>
+$(document).ready(function () {
+  $(".no-fouc").removeClass("no-fouc");
+});
+</script>
+<style>
+  .dawn-announcement-bar {
+    background:{{section.settings.colorBackground}};
+    position: relative;
+    overflow: hidden;
+    padding: 0.915rem 0;
+    display: flex;
+    color: #f0f1f3;
+  }
+  .dawn-announcement-bar .dawn-message {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #f0f1f3;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .dawn-announcement-bar .swiper-button-next:after, .dawn-announcement-bar .swiper-container-rtl .swiper-button-prev:after,
+  .dawn-announcement-bar .swiper-button-prev:after, .dawn-announcement-bar .swiper-container-rtl .swiper-button-next:after{
+    font-size: 15px;
+    color: #f0f1f3;
+  }
+  span.right-align-login {
+    right: 5%;
+    position: absolute;
+    text-transform: none;
+    font-size: 1.25rem;
+    font-weight: 300;
+    z-index: 2;
+    background:{{section.settings.colorBackground}};
+  }
+  {%- if  section.blocks.size < 2 %}
+  .dawn-announcement-bar .dawn-swiper-button{display:none!important;}
+  {%- endif -%}
+</style>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Scroll Announcement Bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement_bar",
+        "label": "Show"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay"
+      },
+      {
+        "type": "text",
+        "id": "delay",
+        "label": "Delay between transitions (in ms)",
+        "default": "5000"
+      },
+      {
+        "type": "color",
+        "id": "colorBackground",
+        "label": "Background color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "colorText",
+        "label": "Text color",
+        "default": "#000"
+      }
+],
+"blocks": [
+      {
+        "type": "header",
+        "name": "Message",
+        "settings": [
+{
+              "id": "message",
+              "type": "textarea",
+             "label": "Message"
+            }
+        ]
+      }
+]
+  }
+{% endschema %}

@@ -1,0 +1,374 @@
+.bottom-before-end {
+    margin-top: 10px;
+    background-color: #363333;
+}
+
+form.coupon-cart {
+    display: flex;
+    margin: 1em 0;
+}
+
+.Ship {
+    display: inline;
+}
+
+span.shipping-conditions {
+    font-size: 10px;
+    float: right;
+    color: #868686;
+    display: inline;
+
+    padding-top: 4px;
+  
+}
+
+.outlet-div.cart-drawer {
+    font-size: 11px;
+  padding-top: 26px;
+}
+
+#cartPage .card {
+    border: 0;
+}
+
+form.coupon-cart input.button {
+    background-color: #c8c8c8;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+  
+}
+
+.cart__footer .cart__ctas button {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: 'Poppins';
+    letter-spacing: 0;
+    border-radius: 6px;
+}
+
+.cart {
+  position: relative;
+  display: block;
+}
+
+.cart__empty-text,
+.is-empty .cart__contents,
+cart-items.is-empty .title-wrapper-with-link,
+.is-empty .cart__footer {
+  display: none;
+}
+
+.is-empty .cart__empty-text,
+.is-empty .cart__warnings {
+  display: block;
+}
+
+.cart__warnings {
+  display: none;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+
+.cart__empty-text {
+  margin: 4.5rem 0 2rem;
+}
+
+.cart__contents > * + * {
+  margin-top: 2.5rem;
+}
+
+.cart__login-title {
+  margin: 5.5rem 0 0.5rem;
+}
+
+.cart__login-paragraph {
+  margin-top: 0.8rem;
+}
+
+.cart__login-paragraph a {
+  font-size: inherit;
+}
+
+@media screen and (min-width: 990px) {
+  .cart__warnings {
+    padding: 7rem 0 1rem;
+  }
+
+  .cart__empty-text {
+    margin: 0 0 3rem;
+  }
+}
+
+cart-items {
+  display: block;
+}
+
+.cart__items {
+  position: relative;
+  padding-bottom: 3rem;
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.cart__items--disabled {
+  pointer-events: none;
+}
+
+.cart__footer {
+  padding: 4rem 0 0;
+}
+
+.cart__footer-wrapper:last-child .cart__footer {
+  padding-bottom: 5rem;
+}
+
+.cart__footer > div:only-child {
+  margin-left: auto;
+}
+
+.cart__footer > * + * {
+  margin-top: 4rem;
+}
+
+.cart__footer .discounts {
+  margin-top: 1rem;
+}
+
+.cart__note {
+  height: fit-content;
+}
+
+.cart__note label {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  line-height: 1;
+  height: 1.8rem;
+  top: -3rem;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.cart__note .field__input {
+  height: 100%;
+  position: relative;
+  border-radius: var(--inputs-radius);
+  padding: 1rem 2rem;
+}
+
+.cart__note .text-area {
+  resize: vertical;
+}
+
+.cart__note:after, .cart__note:hover.cart__note:after,
+.cart__note:before, .cart__note:hover.cart__note:before,
+.cart__note .field__input:focus,
+.cart__note .field__input {
+  border-bottom-right-radius: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .cart__items {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 4rem;
+  }
+
+  .cart__contents > * + * {
+    margin-top: 0;
+  }
+
+  .cart__items + .cart__footer {
+    grid-column: 2;
+  }
+
+  .cart__footer {
+    display: flex;
+    justify-content: center;
+    border: 0;
+  }
+
+  .cart__footer-wrapper:last-child {
+    padding-top: 0;
+  }
+
+  .cart__footer > * {
+    width: 40rem;
+  }
+
+  .cart__footer > * + * {
+    margin-left: 4rem;
+    margin-top: 0;
+  }
+}
+
+.cart__ctas button {
+  width: 100%;
+}
+
+.cart__ctas > *:not(noscript:first-child) + * {
+  margin-top: 1rem;
+}
+
+.cart__update-button {
+  margin-bottom: 1rem;
+}
+
+.cart__dynamic-checkout-buttons {
+  margin: 0 auto;
+}
+
+.cart__blocks > * + * {
+  margin-top: 1rem;
+}
+
+.cart__dynamic-checkout-buttons div[role='button'] {
+  border-radius: var(--buttons-radius-outset) !important;
+}
+
+.cart-note__label {
+  display: inline-block;
+  margin-bottom: 1rem;
+  line-height: calc(1 + 1 / var(--font-body-scale));
+}
+
+.tax-note {
+  margin: 2.2rem 0 1.6rem auto;
+  text-align: center;
+  display: block;
+}
+
+.cart__ctas {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .cart-note {
+    max-width: 35rem;
+  }
+
+  .cart__update-button {
+    margin-bottom: 0;
+    margin-right: 0.8rem;
+  }
+
+  .tax-note {
+    margin-bottom: 2.2rem;
+    text-align: right;
+  }
+
+  [data-shopify-buttoncontainer] {
+    justify-content: center;
+  }
+
+  .cart__ctas {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+
+.cart__footer>div:only-child {
+    margin-left: 0;
+}
+
+#MainContent.cart {
+    margin: 0 auto;
+  max-width: 70%;
+    display: flex;
+}
+img.cart-item__image {
+    height: 178px;
+    width: 126px;
+}
+h1.title.title--primary {
+    padding-left: 1em;
+    margin: 0;
+    padding-top: 11px;
+}
+.cart-item__price-wrapper {
+}
+
+td.cart-item__details {
+    padding-left: 0px!important;
+}
+td.cart-item__prices.right {
+    display: none;
+}
+
+.quantity__input {
+    color: currentColor;
+    font-size: 1.4rem;
+    font-weight: 500;
+    opacity: .85;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    padding: 0 .5rem;
+    height: 4.5rem;
+    width: 100%;
+    flex-grow: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-bottom: 13px;
+}
+.quantity {
+    border: .1rem solid #eaeaea;
+    position: relative;
+    width: 11rem;
+    height: 2em;
+    display: flex;
+}
+
+span.money {
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  #MainContent.cart {
+    flex-direction: column;
+}
+}
+
+.bottom-end-suggestions {
+        display: flex;
+    }
+
+span.title-bottom-end-suggestions {
+    FONT-WEIGHT: 500;
+    font-size: 12px;
+    padding: 20px 0px 20px;
+}
+
+button#add-to-cart-cart p {
+    margin: 0;
+}
+
+.shopify-cleanslate {
+    width: 100%
+    margin-left: -20px;
+}
+
+form.coupon-cart .field {
+    position: relative;
+    width: 100%;
+    display: flex;
+    transition: box-shadow var(--duration-short) ease;
+    font-size: 14px;
+    font-weight: 500;
+    border: #C8C8C8 1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.shopify-cleanslate ul li {
+    width: 300px;
+    flex-basis: unset;
+}
+
+#cartPage .card h2 {
+    max-width: 152px;
+}

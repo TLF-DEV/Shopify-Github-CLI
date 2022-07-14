@@ -1,0 +1,39 @@
+.facet-checkbox {
+    padding: 1rem;
+    flex-grow: 1;
+    position: relative;
+    font-size: 1.4rem;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #2e2e2e;
+    justify-content: center;
+    align-items: flex-end;
+}
+ul.Color-5 span {
+    padding-left: 12px;
+}
+
+ul.Color-5 {
+    display: flex;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+details.Color label:before {
+    content: "";
+    height: 35px;
+    width: 35px;
+}
+label.black::before {background:#000000}
+label.blue::before { background:#0000FF}
+label.green::before { background:#008000}
+label.purple::before { background:#A020F0}
+label.red::before { background:#FF0000}
+label.white::before { background:#FFFFFF}
+label.orange::before { background:#FFA500}
+label.yellow::before { background:#FFFF00}
+label.gray::before { background:#808080}
+label.pink::before { background:#FFC0CB}
+label.brown::before { background:#800000}
+

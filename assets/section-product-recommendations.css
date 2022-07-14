@@ -1,0 +1,15 @@
+.product-recommendations {
+  display: block;
+}
+
+.product-recommendations:not(.product-recommendations--loaded) {
+  padding: 0;
+  margin: 0;
+}
+
+.product-recommendations__heading {
+    margin: 0;
+    margin-bottom: 2.25rem;
+    font-size: 1.5em;
+    font-weight: 600;
+}

@@ -1,0 +1,592 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="carousel section-{{ section.id }}-padding" aria-label="carousel with tiles">
+  <p class="sr-only">This is a carousel with tiles that activate modal dialogs. Use the previous and next buttons to navigate.</p>
+
+  <!-- Previous button -->
+  <button class="button is-control previous-button">
+    <span class="fas fa-angle-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous tiles</span>
+  </button>
+
+  <!-- Slide content -->
+  <div class="tiles">
+    <div class="sr-only">tile 1 of 3,</div>
+    <div class="carousel-container landing social-complete">
+      <div class="ShopTheLook__Inner">
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light" data-product-index="1" href="#carousel-cell2"></a>
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light is-active" data-product-index="2" href="#carousel-cell1"></a>
+        <img class="product-flick" src="https://cdn.shopify.com/s/files/1/0566/6393/3065/files/ugc_yotpo_8.png?v=1657229839" alt="Morgan">
+      </div>
+      <div id="right-side-cell">
+        <div class="carousel" data-flickity='{ "hash": true }'>
+          <div class="carousel-cell" id="carousel-cell1">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-waisted-workout-shorts-women-shorts-tlf-513801_550x.jpg?v=1624328477" alt="Tempo Women's Shorts" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Sports Bra 2.0 - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+          <div class="carousel-cell" id="carousel-cell2">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-support-sports-bra-women-sports-bras-tlf-948830_550x.jpg?v=1624328132" alt="Tempo Women's Sports Bra" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Shorts - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sr-only">tile 2 of 3,</div>
+        <div class="carousel-container landing social-complete">
+      <div class="ShopTheLook__Inner">
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light" data-product-index="1" href="#carousel-cell3"></a>
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light is-active" data-product-index="2" href="#carousel-cell4"></a>
+        <img class="product-flick" src="https://cdn.shopify.com/s/files/1/0566/6393/3065/files/ugc_yotpo_8.png?v=1657229839" alt="Morgan">
+      </div>
+      <div id="right-side-cell">
+        <div class="carousel" data-flickity='{ "hash": true }'>
+          <div class="carousel-cell" id="carousel-cell3">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-waisted-workout-shorts-women-shorts-tlf-513801_550x.jpg?v=1624328477" alt="Tempo Women's Shorts" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Sports Bra 2.0 - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+          <div class="carousel-cell" id="carousel-cell4">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-support-sports-bra-women-sports-bras-tlf-948830_550x.jpg?v=1624328132" alt="Tempo Women's Sports Bra" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Shorts - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sr-only">tile 3 of 3,</div>
+    <div class="carousel-container landing social-complete">
+      <div class="ShopTheLook__Inner">
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light" data-product-index="1" href="#carousel-cell5"></a>
+        <a class="ShopTheLook__Dot ShopTheLook__Dot--light is-active" data-product-index="2" href="#carousel-cell6"></a>
+        <img class="product-flick" src="https://cdn.shopify.com/s/files/1/0566/6393/3065/files/ugc_yotpo_8.png?v=1657229839" alt="Morgan">
+      </div>
+      <div id="right-side-cell">
+        <div class="carousel" data-flickity='{ "hash": true }'>
+          <div class="carousel-cell" id="carousel-cell5">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-waisted-workout-shorts-women-shorts-tlf-513801_550x.jpg?v=1624328477" alt="Tempo Women's Shorts" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Sports Bra 2.0 - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+          <div class="carousel-cell" id="carousel-cell6">
+            {% render 'icon-heart' %}
+            <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-support-sports-bra-women-sports-bras-tlf-948830_550x.jpg?v=1624328132" alt="Tempo Women's Sports Bra" />
+            <div class="cell-product name"><span>Tempo Ribbed Workout Shorts - Black</span>
+              <span style="color:#868686">$58.00</span>
+            </div>
+            <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+              <button class="flickity-buy">Buy now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Next button -->
+  <button class="button is-control next-button">
+    <span class="fas fa-angle-right" aria-hidden="true"></span>
+    <span class="sr-only">Next tiles</span>
+  </button>
+</section>
+
+<!-- Quick view dialog - reused for each tile -->
+<div class="dialog is-hidden" role="dialog" aria-modal="true">
+  <div class="overlay">
+
+  </div>
+</div>
+
+<style>
+ul.quick-buy-slider {
+    padding-left: 0;
+}
+ul.quick-buy-slider li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    border: 1.5px solid #eaeaea;
+    font-size: 16px;
+    padding: 12px 0px;
+    min-width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 16px;
+    margin: 0 5px;
+}
+.carousel {
+  position: relative;
+  height: 100%;
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.button.is-control {
+  background: 0;
+  border: 0;
+  padding: 0 10px;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.2s linear;
+  top: 38%;
+}
+
+.button.is-control:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.button.is-control:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
+.previous-button {
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+
+.next-button {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.tiles {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: unset;
+}
+
+.carousel-container.landing.social-complete {
+  width: 100%;
+}
+
+#right-side-cell {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.ShopTheLook__Inner {
+  display: inline-block;
+  vertical-align: top;
+}
+
+button.flickity-button {
+  display: none;
+}
+@media only screen and (min-width: 750px) {
+a.ShopTheLook__Dot.ShopTheLook__Dot--light {
+    left: 28%;
+    top: 72%;
+}
+
+a.ShopTheLook__Dot.ShopTheLook__Dot--light.is-active {
+    left: 40%;
+    top: 49%;
+}
+}
+
+@media only screen and (max-width: 749px) {
+.section-template--14959259549833__1654784466a2078541-padding {
+    padding-bottom: 60px;
+}
+a.ShopTheLook__Dot.ShopTheLook__Dot--light.is-active {
+    left: 55%;
+    top: 20%;
+}
+a.ShopTheLook__Dot.ShopTheLook__Dot--light {
+    left: 41%;
+    top: 31%;
+}
+}
+
+a.ShopTheLook__Dot.is-active,
+.supports-hover a.ShopTheLook__Dot:hover {
+  transform: scale(1.5);
+}
+
+a.ShopTheLook__Dot {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 10px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1);
+  transition: transform 0.25s ease-in-out;
+}
+
+a.ShopTheLook__Dot.is-active::after {
+  -webkit-animation: 1.4s shopTheLookDotKeyframe ease-in-out infinite;
+  animation: 1.4s shopTheLookDotKeyframe ease-in-out infinite;
+}
+
+a.ShopTheLook__Dot::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: -12px;
+  top: -12px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+@-webkit-keyframes shopTheLookDotKeyframe {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shopTheLookDotKeyframe {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+ol.flickity-page-dots {
+  display: none;
+}
+
+.carousel-cell,
+.carousel-cell img,
+#right-side-cell {
+  max-width: 255px;
+}
+
+.cell-product.name {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  text-align: left;
+  flex-direction: column;
+}
+
+.cell-product.name span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: block;
+}
+
+button.flickity-buy {
+    font-size: .875em;
+    letter-spacing: 0.01em;
+    background: #2e2e2e;
+    color: white;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 26px;
+    font-weight: 400;
+    cursor: pointer;
+}
+  @media only screen and (max-width: 600px) {
+    .carousel-cell, .carousel-cell img, #right-side-cell, .ShopTheLook__Inner, .ShopTheLook__Inner img {
+    max-width: 300px;
+}
+    #right-side-cell {
+    width: 100%;
+    margin-top: 10px;
+}
+  }
+
+  @media only screen and (min-width: 601px) {
+  .ShopTheLook__Inner {
+    margin: 0 20px 0 0;
+}
+    .ShopTheLook__Inner,
+.ShopTheLook__Inner img {
+  max-width: 640px;
+}
+  }
+</style>
+
+<script src="https://unpkg.com/flickity-hash@1/hash.js"></script>
+
+<script>
+var $carousel;
+var tilesContainer, tiles;
+var previousButton, nextButton;
+var dialog, dialogOverlay, dialogCloseButton, dialogOkButton;
+
+// CSS variables with tile sizing parameters defined at :root
+var tileWidth, tileMargin;
+var leftMostTileIndex = 0;
+
+window.addEventListener("DOMContentLoaded", function (e) {
+  tileWidth = parseInt(
+    getComputedStyle(document.documentElement).getPropertyValue("--tile-width")
+  );
+  tileMargin = parseInt(
+    getComputedStyle(document.documentElement).getPropertyValue("--tile-margin")
+  );
+
+  tilesContainer = document.querySelector(".carousel .tiles");
+
+  previousButton = document.querySelector(".carousel .previous-button");
+  nextButton = document.querySelector(".carousel .next-button");
+
+  dialog = document.querySelector(".dialog");
+  dialogOverlay = dialog.querySelector(".overlay");
+  dialogCloseButton = dialogOverlay.querySelector(".close-button");
+  dialogOkButton = dialogOverlay.querySelector(".ok-button");
+
+  /**
+    Initialize Flickity with the recommended configuration options
+  */
+  $carousel = $(".carousel .tiles").flickity({
+    // Default previous/next buttons are placed after the slides, so they are hard to find. They can't be moved using config options, so we'll need to create custom controls.
+    prevNextButtons: false,
+
+    // Disable keyboard navigation. Using the Left and Right arrow keys for navigation is not a problem, but this also makes the entire slide track focusable, which is awkward for keyboard-based users.
+    accessibility: false,
+
+    // Never use wrap-around with multiple visible slides. DOM order will not match visual appearance due to absolute positioning of slides.
+    wrapAround: false,
+
+    pageDots: false,
+    cellAlign: "left",
+
+    on: {
+      ready: handleReady,
+      settle: handleSettle
+    }
+  });
+
+  // Go to the previous slide when the Previous button is activated
+  previousButton.addEventListener("click", function (e) {
+    $carousel.flickity("previous", true);
+  });
+
+  // Go to the next slide when the Next button is activated
+  nextButton.addEventListener("click", function (e) {
+    $carousel.flickity("next", true);
+  });
+
+  // Close the dialog when any of its interactive elements are activated
+  dialogCloseButton.addEventListener("click", closeDialog);
+  dialogOkButton.addEventListener("click", closeDialog);
+
+  // Clicking anywhere outside the dialog content should close the dialog
+  dialog.addEventListener("click", handleDialogClicks);
+  dialog.addEventListener("keydown", handleDialogKeypresses);
+});
+
+/**
+  When Flickity is initialized, tweak the focusable track, fully hide all non-visible slides, and set up click handlers on all tiles to launch the dialog.
+*/
+function handleReady() {
+  // Retrieve references to the most up-to-date elements
+  tiles = document.querySelectorAll(".carousel .tiles .tile");
+
+  // Add instructive ARIA label to the focusable track
+  tilesContainer.setAttribute(
+    "aria-label",
+    "Track of tiles. Use arrow keys to navigate."
+  );
+
+  // Activating any tile should launch the quick view modal
+  tiles.forEach(function (tile) {
+    tile.addEventListener("click", openDialog);
+  });
+
+  // Ensure that all the non-visible slides are fully hidden
+  hideNonVisibleTiles();
+}
+
+/**
+  After a transition is complete, make sure all non-visible slides are fully hidden, and all visible content is operable
+*/
+function handleSettle(index) {
+  leftMostTileIndex = index;
+
+  // Ensure that all the non-visible slides are fully hidden
+  hideNonVisibleTiles();
+
+  // Allow interactive elements on the new current slide to receive keyboard focus
+  tiles[index].querySelectorAll("a, button").forEach(function (element) {
+    element.removeAttribute("tabindex");
+  });
+}
+
+/**
+  Fully hide non-visible slides for all users when they exit the view.
+*/
+function hideNonVisibleTiles() {
+  // Start by hiding all tiles from screen reader and keyboard users
+  tiles.forEach(function (tile) {
+    tile.setAttribute("aria-hidden", true);
+    tile.setAttribute("tabindex", -1);
+  });
+
+  // Figure out how many slides are visible (or partially visible)
+  var containerWidth = $(tilesContainer).width();
+
+  // How many tiles can fit into this container (including partially visible ones)?
+  // NOTE: this method assumes a constant slide width. Update as needed if you want to support variable slide width.
+  var numVisibleTiles = Math.ceil(containerWidth / (tileWidth + tileMargin));
+
+  // Make only the desired number of tiles available for screen reader and keyboard users
+  for (
+    var i = leftMostTileIndex;
+    i < leftMostTileIndex + numVisibleTiles;
+    i++
+  ) {
+    if (i < tiles.length) {
+      tiles[i].removeAttribute("aria-hidden");
+      tiles[i].removeAttribute("tabindex");
+    }
+  }
+}
+
+/**
+  NOTE: Dialog window for demo purposes only!
+*/
+function openDialog(e) {
+  e.preventDefault();
+  triggeringElement = e.target;
+  dialog.classList.remove("is-hidden");
+  dialogCloseButton.focus();
+}
+
+function closeDialog() {
+  triggeringElement.focus();
+  dialog.classList.add("is-hidden");
+}
+
+function handleDialogClicks(e) {
+  if (!dialogOverlay.contains(e.target)) {
+    closeDialog();
+  }
+}
+
+function handleDialogKeypresses(e) {
+  switch (e.key) {
+    case "Escape":
+      closeDialog();
+      break;
+
+    case "Tab":
+      if (e.shiftKey && document.activeElement === dialogCloseButton) {
+        e.preventDefault();
+        dialogOkButton.focus();
+      } else if (!e.shiftKey && document.activeElement === dialogOkButton) {
+        e.preventDefault();
+        dialogCloseButton.focus();
+      }
+
+      break;
+  }
+}
+
+</script>
+
+{% schema %}
+  {
+    "name": "Flickity Landing Men's",
+    "tag": "section",
+    "settings": [
+{
+      "type": "header",
+      "content": "All Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 160,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 36
+    }
+]
+  }
+{% endschema %}

@@ -1,0 +1,222 @@
+{% unless product.title == "E-Gift Card" %}
+<div id="auto_swatch">
+<label class="colors_label">COLOR</label>
+<div id="tlf_product_hover_color">{{ product.variants.first.option1 }}</div>
+<div id="tlf_color" style="display:none;">{{ product.variants.first.option1 }}</div>
+
+<div id="thumbnail-slider">
+      <div class="inner">
+        
+<ul class="swatches" style="margin:0;padding-inline-start:0px;">
+{% assign collection = collections.all %}
+{% paginate collections.all.products by 1000 %}
+{% assign productName = product.title %}
+{% assign productLink = product.handle %}
+{% assign productKuler = product.variants.first.option1 %}
+{% assign productSpecies = product.type %}
+{% for product in collection.products %}
+{% if product.title == productName and product.type == productSpecies %}
+	<li style="display: inline-block; z-index: 0;">
+  		<div class="swatch-gallery{% if product.handle == productLink %} active{% endif %}">
+          <div class="tlf_product_color">{{ product.variants.first.option1 }}</div>
+  			<a href="/products/{{ product.handle }}">
+    			<span class="dot" style="
+{%- if product.variants.first.option1 == 'Airforce Blue' -%}background-color:#9fb2d2;{%- endif -%}
+{%- if product.variants.first.option1 == 'Armada' -%}background-color:#616789;{%- endif -%}
+{%- if product.variants.first.option1 == 'Army Green' -%}background-color:#797456;{%- endif -%}
+{%- if product.variants.first.option1 == 'Athletic Heather' -%}background-color:#dddddd;{%- endif -%}
+{%- if product.variants.first.option1 == 'Berry Heather' -%}background-color:#a16483;{%- endif -%}
+{%- if product.variants.first.option1 == 'Bio Blue' -%}background-color:#41c7f1;{%- endif -%}
+{%- if product.variants.first.option1 == 'Bio Lime' -%}background-color:#e2fa86;{%- endif -%}
+{%- if product.variants.first.option1 == 'Bio Orange' -%}background-color:#fda31f;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Bio Blue' -%}background-color:#4ad5f4;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Bio Lime' -%}background-color:#e6f496;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Bio Orange' -%}background-color:#f39324;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Camo' -%}background-color:#505256;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Glitz' -%}background-color:#7a777a;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Shine' -%}background-color:#55606e;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black White' -%}background-color:#000000;{%- endif -%}
+{%- if product.variants.first.option1 == 'White Pink' -%}background-color:#fd92bb;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black Neon Lime' -%}background-color:#daf1c6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Black' -%}background-color:#000000;{%- endif -%}
+{%- if product.variants.first.option1 == 'Blue Fog' -%}background-color:#e4f2fb;{%- endif -%}
+{%- if product.variants.first.option1 == 'Blue Mist' -%}background-color:#87abcd;{%- endif -%}
+{%- if product.variants.first.option1 == 'Blue Heather' -%}background-color:#d0d6e6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Brick' -%}background-color:#db8287;{%- endif -%}
+{%- if product.variants.first.option1 == 'Charcoal Gray' -%}background-color:#4c545d;{%- endif -%}
+{%- if product.variants.first.option1 == 'Charcoal Heather' -%}background-color:#5e6979;{%- endif -%}
+{%- if product.variants.first.option1 == 'Charcoal' -%}background-color:#717075;{%- endif -%}
+{%- if product.variants.first.option1 == 'Cinder Heather Camo' -%}background-color:#93989d;{%- endif -%}
+{%- if product.variants.first.option1 == 'Cinder Heather' -%}background-color:#b3b3b5;{%- endif -%}
+{%- if product.variants.first.option1 == 'Clay' -%}background-color:#ea8d7a;{%- endif -%}
+{%- if product.variants.first.option1 == 'Cloud Camo' -%}background-color:#d8dbd8;{%- endif -%}
+{%- if product.variants.first.option1 == 'Cloud' -%}background-color:#f6f6f6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Cobalt' -%}background-color:#2a84de;{%- endif -%}
+{%- if product.variants.first.option1 == 'Crimson' -%}background-color:#b03739;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dark Airforce' -%}background-color:#656c93;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dark Charcoal Heather' -%}background-color:#5d5e62;{%- endif -%}
+{%- if product.variants.first.option1 == 'DK Charcoal Heather' -%}background-color:#5d5e62;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dark Teal' -%}background-color:#306b79;{%- endif -%}
+{%- if product.variants.first.option1 == 'Deep Navy Shine' -%}background-color:#3b4763;{%- endif -%}
+{%- if product.variants.first.option1 == 'Deep Navy' -%}background-color:#273250;{%- endif -%}
+{%- if product.variants.first.option1 == 'Deep Sapphire' -%}background-color:#034e73;{%- endif -%}
+{%- if product.variants.first.option1 == 'Desert Taupe' -%}background-color:#e7c7c2;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Berry' -%}background-color:#44202c;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Charcoal Heather' -%}background-color:#636363;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Grey' -%}background-color:#333a43;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Lagoon' -%}background-color:#233d56;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Olive' -%}background-color:#756345;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dk Purple' -%}background-color:#684f5f;{%- endif -%}
+{%- if product.variants.first.option1 == 'Dusky Orchid' -%}background-color:#c78da3;{%- endif -%}
+{%- if product.variants.first.option1 == 'Fennel' -%}background-color:#bbb499;{%- endif -%}
+{%- if product.variants.first.option1 == 'Golden Rod' -%}background-color:#f6c252;{%- endif -%}
+{%- if product.variants.first.option1 == 'Granite' -%}background-color:#6c6d71;{%- endif -%}
+{%- if product.variants.first.option1 == 'Granite Blue' -%}background-color:#91b5c5;{%- endif -%}
+{%- if product.variants.first.option1 == 'Grey' -%}background-color:#c4cbd6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Grey Marble' -%}background-color:#68779b;{%- endif -%}
+{%- if product.variants.first.option1 == 'Grey Ridge' -%}background-color:#a28996;{%- endif -%}
+{%- if product.variants.first.option1 == 'Griffin' -%}background-color:#a4a4a4;{%- endif -%}
+{%- if product.variants.first.option1 == 'Gunpowder' -%}background-color:#68676a;{%- endif -%}
+{%- if product.variants.first.option1 == 'Harbor Green' -%}background-color:#b0c3c8;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Clay' -%}background-color:#d6796d;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Deep Teal' -%}background-color:#466d79;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Red' -%}background-color:#d73a49;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Prism Dusty Blue' -%}background-color:#a9c3ba;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Olive' -%}background-color:#6c5e44;{%- endif -%}
+{%- if product.variants.first.option1 == 'Heather Stone' -%}background-color:#b9b6a6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Hot Coral' -%}background-color:#df5453;{%- endif -%}
+{%- if product.variants.first.option1 == 'Iron Heather' -%}background-color:#b4bcc4;{%- endif -%}
+{%- if product.variants.first.option1 == 'Jet Black' -%}background-color:#474c52;{%- endif -%}
+{%- if product.variants.first.option1 == 'Lakeshore' -%}background-color:#95bdb4;{%- endif -%}
+{%- if product.variants.first.option1 == 'Lead Shine' -%}background-color:#7c7f89;{%- endif -%}
+{%- if product.variants.first.option1 == 'Lizard' -%}background-color:#bab761;{%- endif -%}
+{%- if product.variants.first.option1 == 'Loganberry' -%}background-color:#75495f;{%- endif -%}
+{%- if product.variants.first.option1 == 'Marlin Blue' -%}background-color:#447cd2;{%- endif -%}
+{%- if product.variants.first.option1 == 'Maroon' -%}background-color:#5d2a30;{%- endif -%}
+{%- if product.variants.first.option1 == 'Marshland Shine' -%}background-color:#8e8d88;{%- endif -%}
+{%- if product.variants.first.option1 == 'Marshland' -%}background-color:#5c5a4b;{%- endif -%}
+{%- if product.variants.first.option1 == 'Mauve' -%}background-color:#b7626a;{%- endif -%}
+{%- if product.variants.first.option1 == 'Midnight Blue' -%}background-color:#1b3f93;{%- endif -%}
+{%- if product.variants.first.option1 == 'Military' -%}background-color:#5e4c32;{%- endif -%}
+{%- if product.variants.first.option1 == 'Mineral' -%}background-color:#68787b;{%- endif -%}
+{%- if product.variants.first.option1 == 'Navy' -%}background-color:#343857;{%- endif -%}
+{%- if product.variants.first.option1 == 'Navy Heather' -%}background-color:#6a7799;{%- endif -%}
+{%- if product.variants.first.option1 == 'Neon' -%}background-color:#d2d6b1;{%- endif -%}
+{%- if product.variants.first.option1 == 'Oatmeal Grey Heather' -%}background-color:#efefef;{%- endif -%}
+{%- if product.variants.first.option1 == 'Oatmeal' -%}background-color:#e6dfdb;{%- endif -%}
+{%- if product.variants.first.option1 == 'Olive' -%}background-color:#8e7654;{%- endif -%}
+{%- if product.variants.first.option1 == 'Olympic Blue' -%}background-color:#0372b5;{%- endif -%}
+{%- if product.variants.first.option1 == 'Oxblood Shine' -%}background-color:#a7495c;{%- endif -%}
+{%- if product.variants.first.option1 == 'Pink' -%}background-color:#f3dee5;{%- endif -%}
+{%- if product.variants.first.option1 == 'Peach' -%}background-color:#ffbcb7;{%- endif -%}
+{%- if product.variants.first.option1 == 'Powder Blue' -%}background-color:#b2c3d6;{%- endif -%}
+{%- if product.variants.first.option1 == 'Purple Camo' -%}background-color:#867292;{%- endif -%}
+{%- if product.variants.first.option1 == 'Red Heather' -%}background-color:#dc4450;{%- endif -%}
+{%- if product.variants.first.option1 == 'Regal Mauve' -%}background-color:#91385f;{%- endif -%}
+{%- if product.variants.first.option1 == 'Red Velvet' -%}background-color:#a71e2d;{%- endif -%}
+{%- if product.variants.first.option1 == 'Regal Purple' -%}background-color:#5f486c;{%- endif -%}
+{%- if product.variants.first.option1 == 'Regal Purple Shine' -%}background-color:#5b4966;{%- endif -%}
+{%- if product.variants.first.option1 == 'Rhino' -%}background-color:#dcd9e1;{%- endif -%}
+{%- if product.variants.first.option1 == 'Rock' -%}background-color:#7a7885;{%- endif -%}
+{%- if product.variants.first.option1 == 'Ruby' -%}background-color:#b22f46;{%- endif -%}
+{%- if product.variants.first.option1 == 'Ruby Shine' -%}background-color:#9c3745;{%- endif -%}
+{%- if product.variants.first.option1 == 'Sage Heather' -%}background-color:#b3afa1;{%- endif -%}
+{%- if product.variants.first.option1 == 'Sea Spray' -%}background-color:#b9c6b4;{%- endif -%}
+{%- if product.variants.first.option1 == 'Silver' -%}background-color:#cbcbcb;{%- endif -%}
+{%- if product.variants.first.option1 == 'Silver Camo' -%}background-color:#c1c0c7;{%- endif -%}
+{%- if product.variants.first.option1 == 'Silver Cloud' -%}background-color:#f2edea;{%- endif -%}
+{%- if product.variants.first.option1 == 'Silver Grey Heather' -%}background-color:#afb5b9;{%- endif -%}
+{%- if product.variants.first.option1 == 'Silver Gray Heather' -%}background-color:#afb5b9;{%- endif -%}
+{%- if product.variants.first.option1 == 'Slate Blue' -%}background-color:#7591c7;{%- endif -%}
+{%- if product.variants.first.option1 == 'Sloe' -%}background-color:#8a7092;{%- endif -%}
+{%- if product.variants.first.option1 == 'Smokey Gray Shine' -%}background-color:#74768b;{%- endif -%}
+{%- if product.variants.first.option1 == 'Smokey Gray' -%}background-color:#8593ac;{%- endif -%}
+{%- if product.variants.first.option1 == 'Space' -%}background-color:#374474;{%- endif -%}
+{%- if product.variants.first.option1 == 'Stargazer' -%}background-color:#6385a2;{%- endif -%}
+{%- if product.variants.first.option1 == 'Stone' -%}background-color:#a7a2a3;{%- endif -%}
+{%- if product.variants.first.option1 == 'Titanium' -%}background-color:#909eb9;{%- endif -%}
+{%- if product.variants.first.option1 == 'Turbulence' -%}background-color:#9da4ad;{%- endif -%}
+{%- if product.variants.first.option1 == 'Turquoise Heather' -%}background-color:#73b7da;{%- endif -%}
+{%- if product.variants.first.option1 == 'Unbleached' -%}background-color:#f3f5f5;{%- endif -%}
+{%- if product.variants.first.option1 == 'White Bio Blue' -%}background-color:#24aad9;{%- endif -%}
+{%- if product.variants.first.option1 == 'White Bio Lime' -%}background-color:#d7e880;{%- endif -%}
+{%- if product.variants.first.option1 == 'White Bio Orange' -%}background-color:#eea433;{%- endif -%}
+{%- if product.variants.first.option1 == 'White' -%}background-color:#ffffff;{%- endif -%}
+{%- if product.variants.first.option1 == 'Wine' -%}background-color:#522337;{%- endif -%}
+{%- if product.variants.first.option1 == 'Wine Shine' -%}background-color:#65384d;{%- endif -%}
+                border-radius:50%;display:inline-block;" alt="{{ product.title }} - {{ product.type }} - TLF Apparel | Take Life Further"></span>
+  			</a>
+  		</div>
+  	</li>
+  
+{% endif %}
+{% endfor %}
+{% endpaginate %}
+
+</ul>
+        
+      </div>
+</div>
+  </div>
+{% endunless %}
+
+<script>
+  $(".swatch-gallery").hover(function() {
+   var data=$(this).find(".tlf_product_color").html();
+    $("#tlf_product_hover_color").hide().stop().html(data).show();
+    $("#tlf_color").css("display", "none");
+    $(this).addClass("swatch-gallery_hover");
+
+}, function() {
+    $("#tlf_product_hover_color").hide();
+    $("#tlf_color").css("display", "inline-block");
+    $(this).removeClass("swatch-gallery_hover");
+
+});
+</script>
+
+<style>
+label.colors_label {
+    font-family: 'Poppins';
+  color:#868686;
+  margin-right: 5px;
+}
+#auto_swatch {
+    margin: 1.45em 0 0 0;
+  font-size: 0.875em;
+}
+ul.swatches {
+    display: inline-block;
+}
+.product span.dot:hover {
+    border: 2px #2e2e2e solid !important;
+}
+.swatch-gallery.active span.dot {
+    border: 2px #2e2e2e solid;
+    box-shadow: 0 0 0 .1em #ffffff inset;
+}
+.product span.dot {
+    border: 1px #d8d8d8 solid;
+    height: 32px;
+    width: 32px;
+    margin-right: 0.65em;
+}
+#tlf_product_hover_color {
+    margin: 0;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+#thumbnail-slider {
+    margin: 0.85em 0 0.25em 0;
+}
+.swatch-gallery {
+    display: inline-block;
+}
+.tlf_product_color {
+    display: none;
+}
+  #tlf_color {
+    font-family: 'Roboto', sans-serif;
+}
+
+</style>

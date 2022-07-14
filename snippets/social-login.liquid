@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://shop.miniorange.com/social-login/css/bootstrap-social.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<style>
+  .btn-social>:first-child {
+    border-right: none !important;
+    font-size: 1.1em !important;
+}
+  .btn-social {
+    position: relative !important;
+    text-align: center !important;
+    padding-left: inherit !important;
+    font-weight: 300;
+    font-size: 12px !important;
+}
+  .btn-social>:first-child {
+    position: relative !important;
+    left: auto !important;
+}
+  .btn-google:hover, .btn-google:focus, .btn-google:active, .btn-google.active, .open>.dropdown-toggle.btn-google {
+    background: none !important;
+}
+  a.btnL.btn-mo.btn-block.btn-social.btn-linkedin.btn-custom-dec.login-button {
+    background-image: none !important;
+    background-color: #2867B2;
+}
+  #CustomerLoginForm .btn-block+.btn-block {
+    margin-top: 16px;
+}
+</style>
+<div id="CustomerLoginForm">
+  <center>
+    {% assign mo_appname = "facebook,google,linkedin" | split: "," %}{% for value in mo_appname %}
+    {% if value == "google" %}
+    <a href="https://shop.miniorange.com/social-login/openidcallback/{{value}}?shop=tlfapparel.myshopify.com&hosts={{ request.host }}" style="display: block;text-decoration: none;background-color: #DE5246 !important;width: 100% !important;padding-top:3px !important;padding-bottom:3px !important;border-color: rgba(79, 113, 232, 1);border-bottom-width: thin;" class="btnL btn-mo btn-block btn-social btn-google btn-custom-dec login-button">
+      <i class="fab fa-google"></i><span style="color:#ffffff;"> Sign in with Google</span></a>
+    {% else %} <a href="https://shop.miniorange.com/social-login/openidcallback/{{value}}?shop=tlfapparel.myshopify.com&hosts={{ request.host }}" class="btnL btn-mo btn-block btn-social btn-{{value}} btn-custom-dec login-button" style="display: block;text-decoration: none;width: 100% !important;padding-top:3px !important;padding-bottom:3px !important;"><i class="fab fa-{{value}}"></i> Sign in with {{ value | capitalize }}</a> {% endif %} {% endfor %}
+  </center>
+</div>

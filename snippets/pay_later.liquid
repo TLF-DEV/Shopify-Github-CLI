@@ -1,0 +1,56 @@
+<div class="klarna-container">
+
+  <div class="klarna">
+  {% render 'icon-klarna' %}
+  </div>
+  <span class="klarna-text">Split the cost of your purchase into 4 interest-free payments, paid every 2 weeks. No interest.</span>
+
+</div>
+
+<div id="product-price-selector"></div>
+<div id="afterpay-new"><img style="position:absolute;width:90px;" src="https://cdn.shopify.com/s/files/1/2665/0346/files/afterpay.svg?v=1626878772">
+<span class="afterpay-text" style="font-weight:normal;">1st payment made at checkout, and additional 3 payments taken every 2 weeks. {% render 'afterpay-modal' %}</span></div>
+
+<div id="shoppay-installments"><img style="position:absolute;width:90px;" src="https://cdn.shopify.com/s/files/1/2665/0346/files/ShopPay-Affirm.svg?v=1627999672">
+<span class="shoppay-text" style="font-weight:normal;">1st payment made at checkout, and additional 3 payments taken every 2 weeks. {% render 'shoppay-modal' %}</span></div>
+
+<style>
+  .klarna {
+    display: inline-block;
+    vertical-align: top;
+}
+span.klarna-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #000;
+    display: inline-block;
+    width: 70%;
+    line-height: 1.4;
+    margin-left: 24px;
+}
+span.afterpay-text, span.shoppay-text {
+    margin-left: 118px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 13px;
+    line-height: 18px;
+}
+  klarna-placement.klarna-space {
+    margin-left: 118px;
+    display: block;
+}
+  a.aft-modalButton, a.sppy-modalButton {
+    color: black;
+}
+.accordion__content.rte.paylater div {
+    padding-bottom: 1em;
+}
+.klarna-container {
+    padding-bottom: 0px !important;
+}
+  #afterpay-new {
+    padding: 17px 0;
+}
+</style>            
