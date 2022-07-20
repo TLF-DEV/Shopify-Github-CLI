@@ -331,6 +331,7 @@
         "16397754470f084f29-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/rewards.jpg",
             "title": "TLF REWARDS",
             "text": "<p>As a rewards member, you'll get closer to earning exclusive rewards every time you shop.<\/p>",
             "button_label": "Learn more",
