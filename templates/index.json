@@ -311,7 +311,8 @@
         "16397754470f084f29-0": {
           "type": "column",
           "settings": {
-            "title": "Buy Now Pay Later",
+            "image": "shopify:\/\/shop_images\/APP.jpg",
+            "title": "TLF APP",
             "text": "<p>We have chosen multiple partners so you can shop and pay later. It's simple and easy.<\/p>",
             "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/landing-page"
