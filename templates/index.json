@@ -225,6 +225,8 @@
         "hero_background_container_height_mobile": "500px",
         "hero_background_container_height_invh_mobile": "85vh",
         "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/overstock-sale-desktop.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/overstock-sale-mobile.jpg",
         "check_banner_background": false,
         "hero_banner_background": "#dbdbdb",
         "hero_background_height": "396px",
