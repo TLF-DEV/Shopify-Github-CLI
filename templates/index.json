@@ -13,7 +13,8 @@
         "hero_background_container_height_mobile": "500px",
         "hero_background_container_height_invh_mobile": "75vh",
         "check_banner_image": true,
-        "hero_banner_image": "shopify:\/\/shop_images\/bannerDesktop.webp",
+        "hero_banner_image": "shopify:\/\/shop_images\/HERO-UNISEX-DESKTOP.jpg",
+        "hero_mob_image": "shopify:\/\/shop_images\/HERO-UNISEX-MOBILE.gif",
         "check_banner_background": false,
         "hero_banner_background": "rgba(0,0,0,0)",
         "hero_background_height": "396px",
@@ -61,7 +62,6 @@
         "1631282623371f9328-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mensFrontPage.webp",
             "title": "Men",
             "text": "",
             "link_label": "Shop",
@@ -71,7 +71,6 @@
         "1631282623371f9328-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/womensFrontPage.webp",
             "title": "Women",
             "text": "",
             "link_label": "Shop",
@@ -113,7 +112,6 @@
         "hero_background_container_height_mobile": "500px",
         "hero_background_container_height_invh_mobile": "75vh",
         "check_banner_image": true,
-        "hero_banner_image": "shopify:\/\/shop_images\/desktopBannerWomens.webp",
         "check_banner_background": false,
         "hero_banner_background": "rgba(0,0,0,0)",
         "hero_background_height": "396px",
@@ -223,7 +221,6 @@
         "hero_background_container_height_mobile": "500px",
         "hero_background_container_height_invh_mobile": "85vh",
         "check_banner_image": true,
-        "hero_banner_image": "shopify:\/\/shop_images\/smsPic.webp",
         "check_banner_background": false,
         "hero_banner_background": "#dbdbdb",
         "hero_background_height": "396px",
