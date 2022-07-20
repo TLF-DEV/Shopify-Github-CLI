@@ -338,9 +338,9 @@
         "1647373607953bcde4-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GC.jpg",
-            "title": "E-GIFT CARD",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
+            "image": "shopify:\/\/shop_images\/PAYMENT-OPTIONS.gif",
+            "title": "BUY NOW PAY LATER",
+            "text": "<p>We have chosen multiple partners so you can shop and pay later. It's simple and easy.<br\/><\/p>",
             "button_label": "Learn more",
             "button_link": "shopify:\/\/pages\/landing-page"
           }
