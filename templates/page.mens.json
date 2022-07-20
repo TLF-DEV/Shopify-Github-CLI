@@ -349,7 +349,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/rewards.jpg",
-            "title": "Lorem ipsum dolor",
+            "title": "TLF REWARDS",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
             "button_label": "Learn more",
             "button_link": "shopify:\/\/pages\/landing-page"
