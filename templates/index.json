@@ -313,7 +313,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/APP.jpg",
             "title": "TLF APP",
-            "text": "<p>We have chosen multiple partners so you can shop and pay later. It's simple and easy.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<\/p>",
             "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/landing-page"
           }
