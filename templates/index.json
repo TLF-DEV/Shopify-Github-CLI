@@ -72,6 +72,7 @@
         "1631282623371f9328-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SHOP-WOMEN_4b535064-07ee-4d4d-86af-e30c49ccfc73.jpg",
             "title": "Women",
             "text": "",
             "link_label": "Shop",
@@ -113,6 +114,7 @@
         "hero_background_container_height_mobile": "500px",
         "hero_background_container_height_invh_mobile": "75vh",
         "check_banner_image": true,
+        "hero_banner_image": "shopify:\/\/shop_images\/SHORTS-SEASON-DESKTOP.jpg",
         "check_banner_background": false,
         "hero_banner_background": "rgba(0,0,0,0)",
         "hero_background_height": "396px",
@@ -134,6 +136,7 @@
         "mb_image_url": "",
         "hero_background_title_font_weight": "200",
         "hero_banner_title_background_check": false,
+        "hero_background_title_background": "shopify:\/\/shop_images\/SHORTS-SEASON-MOBILE.jpg",
         "hero_banner_title_color": "#ffffff",
         "hero_banner_description_top_margin_desktop": 56,
         "hero_banner_description_top_margin_mobile": 60,
